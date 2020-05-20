@@ -1,13 +1,14 @@
-# roberta-website
+# Roberta - Personal Trainer Website
 
-Website for a Personal trainer.
+Full Responsive Website for Personal Trainer.
+Coded by me from scratch :)
 
 Front end:
 
 * Html
 * CSS
 * Bootstrap 4
-* Vanilla Javascript. (for the navbars);
+* Vanilla Javascript. (for the navbar);
 
 Backend:
 
