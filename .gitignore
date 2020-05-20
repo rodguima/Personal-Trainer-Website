@@ -1,0 +1,9 @@
+node_modules
+server-mailgun
+server-testing
+server-nodemailer
+package-lock.json
+package.json
+server.js
+mail.js
+.env

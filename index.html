@@ -12,7 +12,7 @@
   <!-- aos CDN -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- my stylesheet -->
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="dist/css/style.css">
 </head>
 <body>
 
@@ -50,7 +50,7 @@
                 <div class="hero-text text-white text-center" data-aos="fade-down">
                     <h2>Venha treinar comigo</h2>
                     <h1>Professora Roberta</h1>
-                    <a class="btn px-5 mt-3 text-white" href="#" >Clique aqui</a>
+                    <a class="btn px-5 mt-3 text-white" href="#wim" >Clique aqui</a>
                 </div> 
             </div>  
         </div>
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-5 ml-auto" data-aos="fade-left">
-                    <img class="img-fluid" src="images/perfil.jpg" alt="image">
+                    <img class="img-fluid" src="dist/img/perfil.jpg" alt="image">
                 </div>
             </div>
         </div>
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-5 mt-5 mr-auto" data-aos="fade-right">
-                    <img class="img-fluid" src="images/homem.jpg" alt="image">
+                    <img class="img-fluid" src="dist/img/homem.jpg" alt="image">
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
                 <div class="col-12 col-md-3 p-2">
                     <div class="card-item shadow-sm" data-aos="zoom-in">
                         <div class="block-classes">
-                            <img class="img-fluid" src="images/yoga.jpg" alt="image">
+                            <img class="img-fluid" src="dist/img/yoga.jpg" alt="image">
                             <div class="p-4">
                                 <i class="fas fa-dumbbell mb-3"></i>
                                 <h3>Treinamento</h3>
@@ -169,7 +169,7 @@
                 <div class="col-12 col-md-3 p-2">
                     <div class="card-item shadow-sm" data-aos="zoom-in">
                         <div class="block-classes">
-                            <img class="img-fluid" src="images/yoga.jpg" alt="image">
+                            <img class="img-fluid" src="dist/img/yoga.jpg" alt="image">
                             <div class="p-4">
                                 <i class="fas fa-swimmer mb-3"></i>
                                 <h3>Natação</h3>
@@ -183,7 +183,7 @@
                 <div class="col-12 col-md-3 p-2">
                     <div class="card-item shadow-sm" data-aos="zoom-in">
                         <div class="block-classes">
-                            <img class="img-fluid" src="images/yoga.jpg" alt="image">
+                            <img class="img-fluid" src="dist/img/yoga.jpg" alt="image">
                             <div class="p-4">
                                 <i class="fas fa-bullseye mb-3"></i>
                                 <h3>Pilates</h3>
@@ -197,7 +197,7 @@
                 <div class="col-12 col-md-3 p-2">
                     <div class="card-item shadow-sm" data-aos="zoom-in">
                         <div class="block-classes">
-                            <img class="img-fluid" src="images/yoga.jpg" alt="image">
+                            <img class="img-fluid" src="dist/img/yoga.jpg" alt="image">
                             <div class="p-4">
                                 <i class="fas fa-spa mb-3"></i>
                                 <h3>Alongamento</h3>
@@ -229,7 +229,7 @@
                             <div class="carousel-inner">
                             <div class="carousel-item text-center active">
                                 <div class="img-area">
-                                    <img src="images/portrait.jpg" class="" alt="...">
+                                    <img src="dist/img/portrait.jpg" class="" alt="...">
                                 </div>
                                 <h5>Natalie</h5>
                                 <h5>Web Designer</h5>
@@ -237,7 +237,7 @@
                             </div>
                             <div class="carousel-item text-center">
                                 <div class="img-area">
-                                    <img src="images/portrait.jpg" class="" alt="...">
+                                    <img src="dist/img/portrait.jpg" class="" alt="...">
                                 </div>
                                 <h5>Jason Doe</h5>
                                 <h5>Photographer</h5>
@@ -245,7 +245,7 @@
                             </div>
                             <div class="carousel-item text-center">
                                 <div class="img-area">
-                                    <img src="images/portrait.jpg" class="" alt="...">
+                                    <img src="dist/img/portrait.jpg" class="" alt="...">
                                 </div>
                                 <h5>Jason Doe</h5>
                                 <h5>Photographer</h5>
@@ -267,11 +267,12 @@
         </div>
     </section>
 
+    <!-- parallax -->
     <section class="parallax ">
         <div class="container">
             <div class="row">
                 <div class="col-12 parallax-content">
-                    <div class="section-heading text-center text-white">
+                    <div class="section-heading text-center text-white " data-aos="fade-up">
                         <h2>O que esta esperando?</h2>
                         <h1>venha treinar comigo!</h1>
                     </div>
@@ -280,54 +281,63 @@
         </div>
     </section>
     
-    <!-- form -->
-    <form action="#" target="_blank" class="form py-5">
+    <!-- form header -->
+    <section method="POST" action="/send" class="form py-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 py-2 mb-3">
                     <div class="section-heading text-center" data-aos="fade-up">
                         <h2>Ficou interessado?</h2>
                         <h1>Me envie uma mensagem!</h1>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="form-group">
-                        <label for="InputName"> Nome:</label>
-                        <input type="text" class="form-control" placeholder="Nome" required>
-                        <div class="valid-feedback">
-                            Belo nome!
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <div class="form-group">
-                        <label for="InputLastname"> Sobrenome:</label>
-                        <input type="text" class="form-control" placeholder="Sobrenome" required>
-                        <div class="valid-feedback">
-                            Sobrenome Legal!
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
-                    <div class="form-group">
-                        <label for="InputEmail"> Email:</label>
-                        <input type="email" class="form-control" placeholder="Coloque aqui seu email" aria-describedby="emailHelp" required>
-                        <small id="emailHelp" class="form-text text-muted">Nos nunca compatilharemos seu email</small>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
-                    <div class="form-group">
-                        <label for="form-control">Mensagem:</label>
-                        <textarea class="form-control" id="form-control" placeholder="Deixe aqui a sua mensagem" rows="4" required></textarea>
-                    </div>
-                </div>
-                <div class="col-12 col-md-8">
-                    <div class="form-group d-flex justify-content-center">
-                        <button type="submit" class="btn">Enviar</button>
+                        {{mensagem}}
                     </div>
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- form header -->   
+    <form method="POST" action="send" target="index.html" class="form py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-4">
+              <div class="form-group">
+                  <label for="InputName"> Nome:</label>
+                  <input type="text" name="name" class="form-control" placeholder="Nome" required>
+              </div>
+          </div>
+          <div class="col-12 col-md-4">
+              <div class="form-group">
+                  <label for="InputLastname"> Sobrenome:</label>
+                  <input type="text" name="lastname" class="form-control" placeholder="Sobrenome" required>
+              </div>
+          </div>
+          <div class="col-12 col-md-4">
+              <div class="form-group">
+                  <label for="phone"> Telefone:</label>
+                  <input type="tel" name="phone" class="form-control" placeholder="Telefone" required>
+              </div>
+          </div>
+          <div class="col-12 col-md-8">
+              <div class="form-group">
+                  <label for="InputEmail"> Email:</label>
+                  <input type="email" name="email" class="form-control" placeholder="Coloque aqui seu email" aria-describedby="emailHelp" required>
+                  <small id="emailHelp" class="form-text text-muted">Nos nunca compatilharemos seu email</small>
+              </div>
+          </div>
+          <div class="col-12 col-md-8">
+              <div class="form-group">
+                  <label for="form-control">Mensagem:</label>
+                  <textarea class="form-control" name="text" id="form-control" placeholder="Deixe aqui a sua mensagem" rows="4" required></textarea>
+              </div>
+          </div>
+          <div class="col-12 col-md-8">
+              <div class="form-group d-flex justify-content-center">
+                  <button type="submit" class="btn">Enviar</button>
+              </div>
+          </div>
+        </div>
+      </div>
     </form>
           
     <!-- <section class="demo-content"></section> -->
@@ -361,12 +371,7 @@
                 </div>
                 <div class="col-12  order-6 d-flex justify-content-center">
                     <div class="naro text-white">
-                        <h6>&copy; Roberta 2020</h6>
-                    </div>
-                </div>
-                <div class="col-12  order-6 d-flex justify-content-center">
-                    <div class="naro text-white">
-                        <h6>coded with <i class="far fa-heart"></i> by <spam>narostudio</spam></h6>
+                        <h6>Copyright &copy; Roberta 2020 | coded with <i class="far fa-heart"></i> by <spam>narostudio</spam></h6>
                     </div>
                 </div>
             </div>
@@ -381,6 +386,9 @@
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <script src="scripts.js" type="text/javascript" ></script>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="dist/js/json.js" type="text/javascript"></script> -->
+
+  <script src="dist/js/scripts.js" type="text/javascript" ></script>
 </body>
 </html>
