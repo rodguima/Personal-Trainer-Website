@@ -2,4 +2,15 @@
 
 Website for a Personal trainer.
 
-Made with Bootstrap 4 and a little Javascript.
+Front end:
+
+* Html
+* CSS
+* Bootstrap 4
+* Vanilla Javascript. (for the navbars);
+
+Backend:
+
+* Node.js
+* Express
+* NodeMailer
