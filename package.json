@@ -1,0 +1,30 @@
+{
+  "name": "roberta-website",
+  "version": "1.0.0",
+  "description": "Website for a Personal trainer.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6",
+    "nodemailer-mailgun-transport": "^2.0.0",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "express-handlebars": "^4.0.4"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodguima/Personal-Trainer-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodguima/Personal-Trainer-Website/issues"
+  },
+  "homepage": "https://github.com/rodguima/Personal-Trainer-Website#readme"
+}
