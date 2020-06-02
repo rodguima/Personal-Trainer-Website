@@ -26,7 +26,8 @@ app.post('/send', (req, res) => {
     if (err) {
       res.status(500).jason({ message: 'Internal Error' });
     } else {
-      res.json({ message: 'Email sent!!!' });
+      // res.json({ message: 'Email sent!!!' });
+      res.redirect(path.join('/', 'index.html'));
     }
   });
 });

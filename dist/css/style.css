@@ -377,7 +377,7 @@ body {
 
 .parallax-content {
     width: 100%;
-    min-height: 250px;
+    min-height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
