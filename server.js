@@ -6,6 +6,7 @@ const app = express();
 
 //static folder
 app.use('/dist', express.static(path.join(__dirname, 'dist')));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 // Data Parsing
 app.use(express.urlencoded({ extended: false }));
