@@ -11,7 +11,7 @@
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "express-handlebars": "^4.0.4"
+    "express-handlebars": "^5.3.1"
   },
   "scripts": {
     "start": "nodemon server.js"
